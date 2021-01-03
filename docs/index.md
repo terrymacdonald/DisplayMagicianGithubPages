@@ -3,7 +3,11 @@ title: LittleBitBig
 ---
 ## Welcome to the home of DisplayMagician
 
-[DisplayMagician](https://displaymagician.littlebitbig.com) is an open source tool for automatically configuring your displays and sound for a game or application from a single Windows Shortcut. It works like this:
+[DisplayMagician](https://displaymagician.littlebitbig.com) is an open source tool for automatically configuring your displays and sound for a game or application from a single Windows Shortcut. 
+
+<div style="text-align:center"><img src="https://github.com/terrymacdonald/DisplayMagician/raw/main/READMEAssets/DisplayMagicianMainScreen.png"/></div>
+
+It works like this:
 
 1. Change your display settings so they work with your favourite game
 2. Start DisplayMagician and save your current display settings as a Display Profile.
@@ -24,3 +28,5 @@ DisplayMagician will then wait for you to finish playing your game. When you hav
 * Revert the Display Profile changes to how you had them set before (or you can keep the display setting changes).
 
 If you are interested in finding out more, visit [DisplayMagician](https://displaymagician.littlebitbig.com)!
+
+**A massive thanks to Soroush Falahati for HeliosDisplayManagement, which this software used as it's basis**
