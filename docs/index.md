@@ -1,40 +1,26 @@
 ---
 title: LittleBitBig
 ---
-## Welcome to GitHub Pages
+## Welcome to the home of DisplayMagician
 
-You can use the [editor on GitHub](https://github.com/terrymacdonald/DisplayMagicianGithubPages/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+[DisplayMagician](https://displaymagician.littlebitbig.com) is an open source tool for automatically configuring your displays and sound for a game or application from a single Windows Shortcut. It works like this:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. Change your display settings so they work with your favourite game
+2. Start DisplayMagician and save your current display settings as a Display Profile.
+3. Create a Game Shortcut within DisplayMagician that uses the new Display Profile.
+4. Save the new Game Shortcut to your Desktop.
 
-### Markdown
+Now, when you click the Game Shortcut it will:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Change your display settings to match the Display Profile you selected in the Game Shortcut
+* Change your audio settings to match the audio settings you selected in the Game Shortcut
+* Start up to 4 additional applications before your game starts... perfect for all that simracing software like SimHub
+* Start the game (Supports Steam and Uplay game libraries, or directly running a game or application executable)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+DisplayMagician will then wait for you to finish playing your game. When you have finished, and exit your game, DisplayMagician will then:
+* Exit the additional applications it started earlier (or you can leave them running if you want).
+* Revert the audio setting changes to how you had them set before (or you can keep the audio changes).
+* Revert the Display Profile changes to how you had them set before (or you can keep the display setting changes).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/terrymacdonald/DisplayMagicianGithubPages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you are interested in finding out more, visit [DisplayMagician](https://displaymagician.littlebitbig.com)!
